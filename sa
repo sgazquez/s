@@ -1,0 +1,12 @@
+CREATE TABLE pelicula (
+  pel_id INT PRIMARY KEY,
+  pel_titulo VARCHAR(255),
+  pel_año INT,
+  pel_genero VARCHAR(255)
+  );
+
+CREATE TABLE actor (
+  act_id INT PRIMARY KEY,
+  act_nombre VARCHAR(255),
+  act_nacimiento date
+  );
